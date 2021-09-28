@@ -4,9 +4,11 @@ import Example from './pages/example/';
 
 function App() {
   return (
-    <div className="bg-gray-100 p-5">
+    <div className="bg-gray-100">
       <Example />
-      <h1 className="p-5 m-5 bg-blue-600">hello tailwindcss</h1>
+      <h1 className="p-5 m-5 bg-violet-500 rounded-lg">
+        <span className="text-gray-100">hello tailwindcss</span>
+      </h1>
     </div>
   );
 }

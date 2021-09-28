@@ -11,7 +11,7 @@ const navigation = [
 
 export default function Example() {
   return (
-    <Popover className="relative bg-orange-100 overflow-hidden">
+    <Popover className="relative bg-gray-50 overflow-hidden">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto">
