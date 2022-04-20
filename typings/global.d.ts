@@ -8,8 +8,5 @@ declare module '*.scss';
 declare module '*.css';
 declare module '*.svg';
 declare module '*.png';
-declare module 'echarts/lib/*';
 declare module 'array-from';
-declare module 'react-lazy-load';
-declare module 'wordcloud';
 declare module 'path';
